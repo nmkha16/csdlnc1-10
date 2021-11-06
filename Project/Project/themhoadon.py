@@ -16,3 +16,5 @@ class ThemHoaDon(QWidget):
         # button event
 
         #######################
+    def _print(self,str):
+        self.ui.feed.setPlainText(str)
