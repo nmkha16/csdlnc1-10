@@ -21,10 +21,18 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="danhsachhd.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="doanhthu.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="main.py" />
     <Compile Include="themhoadon.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="ui_danhsachhd.py" />
+    <Compile Include="ui_doanhthu.py" />
     <Compile Include="ui_main.py" />
     <Compile Include="ui_themhoadon.py" />
   </ItemGroup>
