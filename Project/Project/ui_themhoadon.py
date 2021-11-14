@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'themhoadonhVTGPj.ui'
+## Form generated from reading UI file 'themhoadonsBFuRM.ui'
 ##
 ## Created by: Qt User Interface Compiler version 5.15.2
 ##
@@ -17,7 +17,7 @@ class Ui_Form(object):
     def setupUi(self, Form):
         if not Form.objectName():
             Form.setObjectName(u"Form")
-        Form.resize(534, 332)
+        Form.resize(575, 321)
         Form.setAutoFillBackground(False)
         Form.setStyleSheet(u"\n"
 "QWidget\n"
@@ -132,155 +132,6 @@ class Ui_Form(object):
         self.frame.setFrameShadow(QFrame.Raised)
         self.gridLayout_2 = QGridLayout(self.frame)
         self.gridLayout_2.setObjectName(u"gridLayout_2")
-        self.label = QLabel(self.frame)
-        self.label.setObjectName(u"label")
-        font = QFont()
-        font.setPointSize(12)
-        self.label.setFont(font)
-        self.label.setStyleSheet(u"")
-        self.label.setAlignment(Qt.AlignRight|Qt.AlignTrailing|Qt.AlignVCenter)
-
-        self.gridLayout_2.addWidget(self.label, 0, 0, 1, 1)
-
-        self.makh_lnedit = QLineEdit(self.frame)
-        self.makh_lnedit.setObjectName(u"makh_lnedit")
-        self.makh_lnedit.setStyleSheet(u"QLineEdit{\n"
-"background-color: QLinearGradient( x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #4d4d4d, stop: 0 #646464, stop: 1 #5d5d5d);\n"
-"    padding: 1px;\n"
-"    border-style: solid;\n"
-"    border: 1px solid #1e1e1e;\n"
-"    border-radius: 5;\n"
-"}\n"
-"\n"
-"QLineEdit:hover{\n"
-"	border-color: #cc8400\n"
-"}")
-        self.makh_lnedit.setReadOnly(False)
-
-        self.gridLayout_2.addWidget(self.makh_lnedit, 0, 1, 1, 2)
-
-        self.frame_2 = QFrame(self.frame)
-        self.frame_2.setObjectName(u"frame_2")
-        self.frame_2.setFrameShape(QFrame.StyledPanel)
-        self.frame_2.setFrameShadow(QFrame.Raised)
-        self.gridLayout = QGridLayout(self.frame_2)
-        self.gridLayout.setObjectName(u"gridLayout")
-        self.groupBox = QGroupBox(self.frame_2)
-        self.groupBox.setObjectName(u"groupBox")
-        self.groupBox.setFont(font)
-        self.groupBox.setStyleSheet(u"QGroupBox\n"
-"{\n"
-"    border: 1px solid darkgray;\n"
-"\n"
-"}\n"
-"\n"
-"QGroupBox:focus\n"
-"{\n"
-"    border: 1px solid darkgray;\n"
-"}")
-        self.verticalLayout = QVBoxLayout(self.groupBox)
-        self.verticalLayout.setObjectName(u"verticalLayout")
-        self.feed = QPlainTextEdit(self.groupBox)
-        self.feed.setObjectName(u"feed")
-        self.feed.setStyleSheet(u"QPlainTextEdit\n"
-"{\n"
-"    background-color: #242424;\n"
-"	margin-top:10px;\n"
-"}")
-
-        self.verticalLayout.addWidget(self.feed)
-
-
-        self.gridLayout.addWidget(self.groupBox, 0, 0, 1, 1)
-
-
-        self.gridLayout_2.addWidget(self.frame_2, 0, 3, 3, 1)
-
-        self.label_2 = QLabel(self.frame)
-        self.label_2.setObjectName(u"label_2")
-        self.label_2.setFont(font)
-        self.label_2.setStyleSheet(u"")
-        self.label_2.setScaledContents(False)
-        self.label_2.setAlignment(Qt.AlignLeading|Qt.AlignLeft|Qt.AlignVCenter)
-        self.label_2.setMargin(0)
-        self.label_2.setIndent(-1)
-        self.label_2.setOpenExternalLinks(False)
-
-        self.gridLayout_2.addWidget(self.label_2, 1, 0, 1, 1)
-
-        self.ttien_lnedit = QLineEdit(self.frame)
-        self.ttien_lnedit.setObjectName(u"ttien_lnedit")
-        self.ttien_lnedit.setStyleSheet(u"QLineEdit{\n"
-"background-color: QLinearGradient( x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #4d4d4d, stop: 0 #646464, stop: 1 #5d5d5d);\n"
-"    padding: 1px;\n"
-"    border-style: solid;\n"
-"    border: 1px solid #1e1e1e;\n"
-"    border-radius: 5;\n"
-"}\n"
-"\n"
-"QLineEdit:hover{\n"
-"	border-color: #cc8400\n"
-"}")
-        self.ttien_lnedit.setReadOnly(True)
-
-        self.gridLayout_2.addWidget(self.ttien_lnedit, 1, 1, 1, 2)
-
-        self.ok_btn = QPushButton(self.frame)
-        self.ok_btn.setObjectName(u"ok_btn")
-        self.ok_btn.setStyleSheet(u"QPushButton\n"
-"{\n"
-"    color: #b1b1b1;\n"
-"    background-color: QLinearGradient( x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #565656, stop: 0.1 #525252, stop: 0.5 #4e4e4e, stop: 0.9 #4a4a4a, stop: 1 #464646);\n"
-"    border-width: 1px;\n"
-"    border-color: #1e1e1e;\n"
-"    border-style: solid;\n"
-"    border-radius: 6;\n"
-"    padding: 3px;\n"
-"    font-size: 12px;\n"
-"    padding-left: 5px;\n"
-"    padding-right: 5px;\n"
-"    min-width: 40px;\n"
-"}\n"
-"\n"
-"QPushButton:pressed\n"
-"{\n"
-"    background-color: QLinearGradient( x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #2d2d2d, stop: 0.1 #2b2b2b, stop: 0.5 #292929, stop: 0.9 #282828, stop: 1 #252525);\n"
-"}\n"
-"\n"
-"QPushButton:hover{\n"
-"	border-color: #cc8400\n"
-"}")
-
-        self.gridLayout_2.addWidget(self.ok_btn, 2, 1, 1, 1)
-
-        self.cancel_btn = QPushButton(self.frame)
-        self.cancel_btn.setObjectName(u"cancel_btn")
-        self.cancel_btn.setStyleSheet(u"QPushButton\n"
-"{\n"
-"    color: #b1b1b1;\n"
-"    background-color: QLinearGradient( x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #565656, stop: 0.1 #525252, stop: 0.5 #4e4e4e, stop: 0.9 #4a4a4a, stop: 1 #464646);\n"
-"    border-width: 1px;\n"
-"    border-color: #1e1e1e;\n"
-"    border-style: solid;\n"
-"    border-radius: 6;\n"
-"    padding: 3px;\n"
-"    font-size: 12px;\n"
-"    padding-left: 5px;\n"
-"    padding-right: 5px;\n"
-"    min-width: 40px;\n"
-"}\n"
-"\n"
-"QPushButton:pressed\n"
-"{\n"
-"    background-color: QLinearGradient( x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #2d2d2d, stop: 0.1 #2b2b2b, stop: 0.5 #292929, stop: 0.9 #282828, stop: 1 #252525);\n"
-"}\n"
-"\n"
-"QPushButton:hover{\n"
-"	border-color: #cc8400\n"
-"}")
-
-        self.gridLayout_2.addWidget(self.cancel_btn, 2, 2, 1, 1)
-
         self.table = QTableWidget(self.frame)
         if (self.table.columnCount() < 2):
             self.table.setColumnCount(2)
@@ -325,6 +176,121 @@ class Ui_Form(object):
 
         self.gridLayout_2.addWidget(self.table, 3, 0, 1, 4)
 
+        self.makh_lnedit = QLineEdit(self.frame)
+        self.makh_lnedit.setObjectName(u"makh_lnedit")
+        self.makh_lnedit.setStyleSheet(u"QLineEdit{\n"
+"background-color: QLinearGradient( x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #4d4d4d, stop: 0 #646464, stop: 1 #5d5d5d);\n"
+"    padding: 1px;\n"
+"    border-style: solid;\n"
+"    border: 1px solid #1e1e1e;\n"
+"    border-radius: 5;\n"
+"}\n"
+"\n"
+"QLineEdit:hover{\n"
+"	border-color: #cc8400\n"
+"}")
+        self.makh_lnedit.setReadOnly(False)
+
+        self.gridLayout_2.addWidget(self.makh_lnedit, 0, 1, 1, 2)
+
+        self.frame_2 = QFrame(self.frame)
+        self.frame_2.setObjectName(u"frame_2")
+        self.frame_2.setFrameShape(QFrame.StyledPanel)
+        self.frame_2.setFrameShadow(QFrame.Raised)
+        self.gridLayout = QGridLayout(self.frame_2)
+        self.gridLayout.setObjectName(u"gridLayout")
+        self.groupBox = QGroupBox(self.frame_2)
+        self.groupBox.setObjectName(u"groupBox")
+        font = QFont()
+        font.setPointSize(12)
+        self.groupBox.setFont(font)
+        self.groupBox.setStyleSheet(u"QGroupBox\n"
+"{\n"
+"    border: 1px solid darkgray;\n"
+"\n"
+"}\n"
+"\n"
+"QGroupBox:focus\n"
+"{\n"
+"    border: 1px solid darkgray;\n"
+"}")
+        self.verticalLayout = QVBoxLayout(self.groupBox)
+        self.verticalLayout.setObjectName(u"verticalLayout")
+        self.listWidget = QListWidget(self.groupBox)
+        self.listWidget.setObjectName(u"listWidget")
+
+        self.verticalLayout.addWidget(self.listWidget)
+
+
+        self.gridLayout.addWidget(self.groupBox, 0, 0, 1, 1)
+
+
+        self.gridLayout_2.addWidget(self.frame_2, 0, 3, 3, 1)
+
+        self.label = QLabel(self.frame)
+        self.label.setObjectName(u"label")
+        self.label.setFont(font)
+        self.label.setStyleSheet(u"")
+        self.label.setAlignment(Qt.AlignRight|Qt.AlignTrailing|Qt.AlignVCenter)
+
+        self.gridLayout_2.addWidget(self.label, 0, 0, 1, 1)
+
+        self.ok_btn = QPushButton(self.frame)
+        self.ok_btn.setObjectName(u"ok_btn")
+        self.ok_btn.setStyleSheet(u"QPushButton\n"
+"{\n"
+"    color: #b1b1b1;\n"
+"    background-color: QLinearGradient( x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #565656, stop: 0.1 #525252, stop: 0.5 #4e4e4e, stop: 0.9 #4a4a4a, stop: 1 #464646);\n"
+"    border-width: 1px;\n"
+"    border-color: #1e1e1e;\n"
+"    border-style: solid;\n"
+"    border-radius: 6;\n"
+"    padding: 3px;\n"
+"    font-size: 12px;\n"
+"    padding-left: 5px;\n"
+"    padding-right: 5px;\n"
+"    min-width: 40px;\n"
+"}\n"
+"\n"
+"QPushButton:pressed\n"
+"{\n"
+"    background-color: QLinearGradient( x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #2d2d2d, stop: 0.1 #2b2b2b, stop: 0.5 #292929, stop: 0.9 #282828, stop: 1 #252525);\n"
+"}\n"
+"\n"
+"QPushButton:hover{\n"
+"	border-color: #cc8400\n"
+"}")
+
+        self.gridLayout_2.addWidget(self.ok_btn, 1, 1, 1, 2)
+
+        self.cancel_btn = QPushButton(self.frame)
+        self.cancel_btn.setObjectName(u"cancel_btn")
+        self.cancel_btn.setStyleSheet(u"QPushButton\n"
+"{\n"
+"    color: #b1b1b1;\n"
+"    background-color: QLinearGradient( x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #565656, stop: 0.1 #525252, stop: 0.5 #4e4e4e, stop: 0.9 #4a4a4a, stop: 1 #464646);\n"
+"    border-width: 1px;\n"
+"    border-color: #1e1e1e;\n"
+"    border-style: solid;\n"
+"    border-radius: 6;\n"
+"    padding: 3px;\n"
+"    font-size: 12px;\n"
+"    padding-left: 5px;\n"
+"    padding-right: 5px;\n"
+"    min-width: 40px;\n"
+"}\n"
+"\n"
+"QPushButton:pressed\n"
+"{\n"
+"    background-color: QLinearGradient( x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #2d2d2d, stop: 0.1 #2b2b2b, stop: 0.5 #292929, stop: 0.9 #282828, stop: 1 #252525);\n"
+"}\n"
+"\n"
+"QPushButton:hover{\n"
+"	border-color: #cc8400\n"
+"}")
+
+        self.gridLayout_2.addWidget(self.cancel_btn, 2, 1, 1, 2)
+
 
         self.verticalLayout_2.addWidget(self.frame)
 
@@ -336,16 +302,14 @@ class Ui_Form(object):
 
     def retranslateUi(self, Form):
         Form.setWindowTitle(QCoreApplication.translate("Form", u"Th\u00eam ho\u00e1 \u0111\u01a1n", None))
-        self.label.setText(QCoreApplication.translate("Form", u"M\u00e3 Kh\u00e1ch h\u00e0ng", None))
-        self.groupBox.setTitle(QCoreApplication.translate("Form", u"S\u1ea3n ph\u1ea9m \u0111\u00e3 ch\u1ecdn", None))
-        self.feed.setPlainText("")
-        self.label_2.setText(QCoreApplication.translate("Form", u"T\u1ed5ng ti\u1ec1n", None))
-        self.ok_btn.setText(QCoreApplication.translate("Form", u"Ok", None))
-        self.cancel_btn.setText(QCoreApplication.translate("Form", u"Cancel", None))
 
         __sortingEnabled = self.table.isSortingEnabled()
         self.table.setSortingEnabled(False)
         self.table.setSortingEnabled(__sortingEnabled)
 
+        self.groupBox.setTitle(QCoreApplication.translate("Form", u"S\u1ea3n ph\u1ea9m \u0111\u00e3 ch\u1ecdn", None))
+        self.label.setText(QCoreApplication.translate("Form", u"M\u00e3 Kh\u00e1ch h\u00e0ng", None))
+        self.ok_btn.setText(QCoreApplication.translate("Form", u"Ok", None))
+        self.cancel_btn.setText(QCoreApplication.translate("Form", u"Cancel", None))
     # retranslateUi
 
