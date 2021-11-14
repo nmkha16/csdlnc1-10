@@ -168,7 +168,7 @@ QPushButton:hover{
 }</string>
          </property>
          <property name="text">
-          <string>Connect</string>
+          <string>Kết nối</string>
          </property>
         </widget>
        </item>
