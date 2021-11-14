@@ -60,3 +60,5 @@ class CTHoaDon(QWidget):
                 item = QTableWidgetItem(str(hd[i][j]))
                 item.setTextAlignment(Qt.AlignCenter)
                 self.ui.table.setItem(i,j,item)
+
+####
