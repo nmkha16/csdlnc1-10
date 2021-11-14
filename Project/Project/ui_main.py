@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'mainwindowJCywZY.ui'
+## Form generated from reading UI file 'mainwindowMfnJfF.ui'
 ##
 ## Created by: Qt User Interface Compiler version 5.15.2
 ##
@@ -165,6 +165,6 @@ class Ui_MainWindow(object):
         self.tkdt_btn.setText(QCoreApplication.translate("MainWindow", u"Th\u00f4ng k\u00ea doanh thu", None))
         self.xemhd_btn.setText(QCoreApplication.translate("MainWindow", u"Xem ho\u00e1 \u0111\u01a1n", None))
         self.themhd_btn.setText(QCoreApplication.translate("MainWindow", u"Th\u00eam ho\u00e1 \u0111\u01a1n", None))
-        self.pushButton.setText(QCoreApplication.translate("MainWindow", u"Connect", None))
+        self.pushButton.setText(QCoreApplication.translate("MainWindow", u"K\u1ebft n\u1ed1i", None))
     # retranslateUi
 
