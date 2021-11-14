@@ -185,11 +185,11 @@ class KetNoi(QWidget):
     def connect(self):
         global status
 
-        self.sv = "NMKHA"
-        self.db = "DA1"
+        #self.sv = "NMKHA"
+        #self.db = "DA1"
 
-        #self.sv = str(self.ui.tensv_lnedit.text())
-        #self.db = str(self.ui.tendb_lnedit.text())
+        self.sv = str(self.ui.tensv_lnedit.text())
+        self.db = str(self.ui.tendb_lnedit.text())
 
         self.ui.messBox = QMessageBox()
         self.ui.messBox.setWindowTitle("Thông báo")

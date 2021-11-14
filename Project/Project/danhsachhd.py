@@ -1,4 +1,4 @@
-
+﻿
 from PySide2.QtCore import (QCoreApplication, QMetaObject, QObject, QPoint,
     QRect, QSize, QUrl, Qt)
 from PySide2.QtGui import (QBrush, QColor, QConicalGradient, QCursor, QFont,
@@ -60,4 +60,3 @@ class CTHoaDon(QWidget):
                 item = QTableWidgetItem(str(hd[i][j]))
                 item.setTextAlignment(Qt.AlignCenter)
                 self.ui.table.setItem(i,j,item)
-
